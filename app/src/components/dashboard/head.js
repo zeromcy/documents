@@ -1,8 +1,8 @@
 import AppBar from '@mui/material/AppBar';
-
+import AddCardIcon from '@mui/icons-material/AddCard';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-
+import Button from '@mui/material/Button'
 
 
 import Box from '@mui/material/Box';
@@ -20,7 +20,10 @@ export default function Head (){
           <Typography  variant="h6"  component="div" sx={{ flexGrow: 1 }}>
             Documents
           </Typography>
-         <TabIcon/>
+        <Button variant="contained"> 
+          
+         <AddCardIcon/>
+        </Button>
         </Toolbar>
 
       
